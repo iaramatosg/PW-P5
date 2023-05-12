@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Exemplo Bootstrap</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .cards{
+        margin-top: 50px;
+    }
+    body{
+      background-color: rgba(73, 134, 247, 0.568);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Logo</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link 1</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link 2</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link 3</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="p-3 mb-2 bg-dark text-white"></div>
+
+
+  <!-- Content -->
+  <div class="container mt-5">
+    <h1>Bem-vindo ao meu site!</h1>
+    <p>Este é um exemplo simples de como usar o Bootstrap.</p>
+    <div class="cards">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card mb-3">
+          <img src="images/img1.jpg" class="card-img-top" alt="Imagem 1">
+          <div class="card-body">
+            <h5 class="card-title">Curiosidades</h5>
+            <p class="card-text">Algumas curiosidades sobre a banda</p>
+            <a href="curiosidade/index.html" class="btn btn-primary">Botão 1</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card mb-3">
+          <img src="images/img2.jpg" class="card-img-top" alt="Imagem 2">
+          <div class="card-body">
+            <h5 class="card-title">Noticias</h5>
+            <p class="card-text">Ultimas noticias sobre os membros da Banda</p>
+            <a href="noticias/noticias.html" class="btn btn-primary">Botão 2</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="row">
+    <div class="col-md-6">
+      <div class="card mb-3">
+        <img src="images/img3.jpeg" class="card-img-top" alt="Imagem 1">
+        <div class="card-body">
+          <h5 class="card-title">Discografia</h5>
+          <p class="card-text">Informações sobre os discos feitos</p>
+          <a href="discografia/index.html" class="btn btn-primary">Botão 1</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="card mb-3">
+        <img src="images/img4.jpg" class="card-img-top" alt="Imagem 2">
+        <div class="card-body">
+          <h5 class="card-title">Fotos</h5>
+          <p class="card-text">Fotos da Banda</p>
+          <a href="fotos/index.html" class="btn btn-primary">Botão 2</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+</div>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Custom JS -->
+  <script src="script.js"></script>
+</body>
+</html>

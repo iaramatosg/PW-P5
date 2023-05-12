@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Site de Notícias</title>
+    <style>
+        /* Estilos gerais */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: rgba(73, 134, 247, 0.568);
+}
+
+/* Estilos do cabeçalho */
+header {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #ccc;
+}
+
+/* Estilos do container */
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px;
+}
+
+.text {
+  width: 60%;
+}
+
+.images {
+  display: flex;
+  justify-content: space-between;
+  width: 35%;
+}
+
+.images img {
+  width: 30%;
+  height: auto;
+}
+
+/* Estilos do rodapé */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Site de Notícias</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Início</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="container">
+        <div class="text">
+          <h2>Fotos da Banda</h2>
+          <p>Texto da notícia...</p>
+        </div>
+        <div class="images">
+          <img src="imagem1.jpg" alt="Descrição da imagem 1">
+          <img src="imagem2.jpg" alt="Descrição da imagem 2">
+          <img src="imagem3.jpg" alt="Descrição da imagem 3">
+          <img src="imagem1.jpg" alt="Descrição da imagem 1">
+          <img src="imagem2.jpg" alt="Descrição da imagem 2">
+          <img src="imagem3.jpg" alt="Descrição da imagem 3">
+          <img src="imagem1.jpg" alt="Descrição da imagem 1">
+          <img src="imagem2.jpg" alt="Descrição da imagem 2">
+          <img src="imagem3.jpg" alt="Descrição da imagem 3">
+        </div>
+      </div>
+    </main>
+    <footer>
+      <p>A Melhor banda do mundo &copy; 2023</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
